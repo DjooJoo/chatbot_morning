@@ -10,10 +10,10 @@ from flask import Flask, request, make_response, render_template
 
 app = Flask(__name__)
 
-slack_token = 'xoxb-503049869125-508899321846-zdJsrMkMj8MfO4qo5szd9weU'
-slack_client_id = '503049869125.506759736704'
-slack_client_secret = '0ec5f1a71d3b7fa7e125ee1b25dbb9cb'
-slack_verification = 'UTIA3dBlSW4H0z3wMxMoB6a2'
+slack_token = ''
+slack_client_id = ''
+slack_client_secret = ''
+slack_verification = ''
 sc = SlackClient(slack_token)
 
 # 크롤링 함수 구현하기
@@ -177,9 +177,9 @@ def _crawl_naver_keywords(text):
         merge.append("#공유와함께하는 #카페타임\n")
         merge.append("[ 원하는 소식을 선택해 주세요 ]")
         merge.append("- 날씨 ")
+        merge.append("- 오늘의 뉴스")
         merge.append("- 영화 예매 순위 ")
         merge.append("- 실시간 음악 순위")
-        merge.append("- 오늘의 뉴스")
         
         
     return u'\n'.join(merge)
