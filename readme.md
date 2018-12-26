@@ -25,28 +25,33 @@ Slack 챗봇 프로젝트
 
 [2] 날씨 정보 call
 
-![날씨](./image/2.png)
+![2](https://user-images.githubusercontent.com/46041410/50432502-87463800-0915-11e9-8acf-7e7d02eb34ae.PNG)
 - 날씨, weather 의 단어가 들어가는 문장을 입력할 시 '오늘'부터 7일간의 '구미 인동'의 날씨를 알려줌
 
 [2-1] 지금 날씨 정보 call
 
-![지금날씨](./image/3.png)
+
+![3](https://user-images.githubusercontent.com/46041410/50432508-8ad9bf00-0915-11e9-97dc-e0133d7b7c22.PNG)
+
 - 지금, now 그리고 날씨, weather의 단어가 들어가는 문장을 입력할 시 현재 '구미 인동'의 날씨를 알려줌
   - 미세먼지의 농도의 나쁨을 기준으로 문장이 변경되어 나옴
   
 [3] 오늘의 뉴스 call
 
-![뉴스](./image/4.png)
+
+![4](https://user-images.githubusercontent.com/46041410/50432504-89a89200-0915-11e9-8673-31f72500f96e.PNG)
 - 이슈, news, 뉴스의 단어가 들어가는 문장을 입력할 시 오늘의 주 topic 뉴스를 10개 보여줌
 
 [4] 음악순위 call
 
-![음악](./image/5.png)
+
+![5](https://user-images.githubusercontent.com/46041410/50432505-89a89200-0915-11e9-84f1-56b9726a3682.PNG)
 - 음악, music의 단어가 들어가는 문장을 입력할 시 실시간 음악 차트 10개를 보여줌
 
 [5] 영화순위 call
 
-![영화](./image/6.png)
+
+![6](https://user-images.githubusercontent.com/46041410/50432506-8a412880-0915-11e9-9935-de81c214fd32.PNG)
 - 영화, movie의 단어가 들어가는 문장을 입력할 시 실시간 음악 예매 순위 7개를 보여줌
 
   
