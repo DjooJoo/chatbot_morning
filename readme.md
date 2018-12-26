@@ -19,7 +19,8 @@ Slack 챗봇 프로젝트
 -------
 [1] 챗봇 call
 
-![첫페이지](./image/1.png)
+![1](https://user-images.githubusercontent.com/46041410/50432491-6d0c5a00-0915-11e9-91b6-d49f3834cca9.PNG)
+
 - 처음 챗봇을 부르거나, 원하는 단어가 없을 시에 나타나는 텍스트
 
 [2] 날씨 정보 call
